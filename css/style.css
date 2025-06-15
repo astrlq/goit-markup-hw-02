@@ -51,10 +51,13 @@ h3 {
   text-decoration: none;
 }
 
-.address-list .link {
-  color: #434455;
+.address-list {
   text-decoration: none;
   font-style: normal;
+}
+
+.address-list .link {
+  color: #434455;
 }
 
 .address-list .link:hover,
