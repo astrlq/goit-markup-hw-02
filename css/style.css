@@ -20,6 +20,15 @@ body {
 .logo .second-pt {
   color: #2e2f42;
 }
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
 h1 {
   font-weight: 700;
   font-size: 56px;
