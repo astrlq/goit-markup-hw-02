@@ -23,8 +23,9 @@ body {
 h1 {
   font-weight: 700;
   font-size: 56px;
-  line-height: 0.02em;
+  line-height: 1.07;
   text-align: center;
+  letter-spacing: 0.2em;
   color: #ffffff;
 }
 
@@ -51,21 +52,11 @@ h3 {
 }
 
 .address-list .link {
-  color: #434455;
-  text-decoration: none;
-  font-style: normal;
-}
-
-.address-list .link:hover,
-.address-list .link:focus {
-  color: #404bbf;
   font-style: normal;
 }
 
 .order-service {
   background-color: #2e2f42;
-  line-height: 1.07;
-  letter-spacing: 0.02em;
 }
 
 .order-service .order {
