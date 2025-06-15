@@ -3,15 +3,29 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
   color: #434455;
   background-color: #ffffff;
 }
 
+.logo {
+  font-family: 'Raleway' sans-serif;
+  font-weight: 700;
+  line-height: 1.17;
+  font-size: 18px;
+  letter-spacing: 0.03em;
+  color: #4d5ae5;
+  text-transform: uppercase;
+}
+.logo .second-pt {
+  color: #2e2f42;
+}
 h1 {
   font-weight: 700;
   font-size: 56px;
-  line-height: 60px;
+  line-height: 1.07;
+  text-align: center;
+  color: #ffffff;
 }
 
 h2 {
@@ -46,11 +60,16 @@ h3 {
   color: #404bbf;
 }
 
+.order-service {
+  background-color: #2e2f42;
+}
+
 .order-service .order {
   cursor: pointer;
   color: #4d5ae5;
   font-weight: 500;
   letter-spacing: 4%;
+  background-color: #4d5ae5;
 }
 
 .order-service .order:hover,
