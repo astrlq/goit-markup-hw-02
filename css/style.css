@@ -59,10 +59,13 @@ h3 {
 .address-list .link:hover,
 .address-list .link:focus {
   color: #404bbf;
+  font-style: normal;
 }
 
 .order-service {
   background-color: #2e2f42;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
 }
 
 .order-service .order {
@@ -100,15 +103,17 @@ h3 {
   color: #2e2f42;
 }
 
-.team .our-team .compo {
+.team .company {
   background-color: #ffffff;
 }
 
-.team .our-team .compo .name {
+.team .company .name {
   line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 
-.team .our-team .compo .descp {
+.team .company .descp {
   font-size: 16px;
 }
 
@@ -140,5 +145,9 @@ h3 {
 }
 
 .foot .second-pt-foot {
+  color: #f4f4fd;
+}
+
+.foot .spec {
   color: #f4f4fd;
 }
