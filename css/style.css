@@ -62,11 +62,11 @@ h3 {
   color: #404bbf;
 }
 
-.order-service {
+.buy-service {
   background-color: #2e2f42;
 }
 
-.order-service .order {
+.buy-service .buy {
   cursor: pointer;
   color: #ffffff;
   font-weight: 500;
@@ -75,11 +75,11 @@ h3 {
   background-color: #4d5ae5;
 }
 
-.order-service .order:hover {
+.buy-service .buy:hover {
   background-color: #404bbf;
 }
 
-.order-service .order:focus {
+.buy-service .buy:focus {
   background-color: #404bbf;
 }
 
