@@ -39,7 +39,7 @@ h3 {
   font-size: 20px;
 }
 
-.nav-list .link {
+.nav-list {
   font-weight: 500;
   color: #2e2f42;
   text-decoration: none;
@@ -52,7 +52,14 @@ h3 {
 }
 
 .address-list .link {
+  color: #434455;
+  text-decoration: none;
   font-style: normal;
+}
+
+.address-list .link:hover,
+.address-list .link:focus {
+  color: #404bbf;
 }
 
 .order-service {
@@ -64,7 +71,7 @@ h3 {
   color: #ffffff;
   font-weight: 500;
   line-height: 1.5;
-  letter-spacing: 0.04em;
+  letter-spacing: 0.02em;
   background-color: #4d5ae5;
 }
 
